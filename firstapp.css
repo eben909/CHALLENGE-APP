@@ -1,0 +1,111 @@
+.container-1, .container-2, .container, .container-4, .container-5{
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+.flex-box-container-1, .flex-box-container-2, .flex-box-rps, 
+.flex-box-pick-color, .flex-blackjack-row-1, .flex-blackjack-row-2,
+ .flex-balckjack-row-3{
+
+    display:flex ;
+    border: 1px solid black;
+    padding:10px ;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-blackjack-row-1, .flex-balckjack-row-2{
+    background:rgb(5, 139, 16);
+    color: #ffff;
+}
+
+.flex-blackjack-row-1 div{
+    border: 1px solid black;
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+    height: 350px;
+}
+
+.flex-blackjack-row-1 img{
+    width: 25%;
+    padding:10px ;
+}
+
+.flex-balckjack-row-2 button{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.flex-balckjack-row-2 div{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+table,th,td{
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.flex-box-container-1 div{
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+    align-items: center;
+}
+
+.flex-box-container-2 img{
+    margin: 10px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0, 7) ;
+
+}
+
+.choice:hover {
+
+    box-shadow:0px 10px 50px rgba(37,50,233,1);
+}
+
+.container {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.choices {
+    margin-bottom: 20px;
+}
+
+.choice {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.choice:hover {
+    background: #0056b3;
+}
+
+.result {
+    margin-top: 20px;
+}
+
+.result p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+#message {
+    font-size: 24px;
+    font-weight: bold;
+}
